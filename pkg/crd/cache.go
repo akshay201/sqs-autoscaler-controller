@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
 	metrics "github.com/rcrowley/go-metrics"
+	log "github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/cache"

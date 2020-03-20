@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/pubnub/go-metrics-statsd"
 	"github.com/rcrowley/go-metrics"
 	"gopkg.in/alecthomas/kingpin.v2"
@@ -16,8 +16,8 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/uswitch/sqs-autoscaler-controller/pkg/crd"
-	"github.com/uswitch/sqs-autoscaler-controller/pkg/scaler"
+	"github.com/akshay201/sqs-autoscaler-controller/pkg/crd"
+	"github.com/akshay201/sqs-autoscaler-controller/pkg/scaler"
 )
 
 type options struct {
