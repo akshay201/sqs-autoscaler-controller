@@ -1,2 +1,5 @@
 bin/
 sqs-autoscaler-controller
+vendor/
+pkg/mod
+pkg/sumdb

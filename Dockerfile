@@ -1,4 +1,4 @@
-FROM scratch
+FROM ubuntu
 
 ADD bin/sqs-autoscaler-controller /sqs-autoscaler-controller
 

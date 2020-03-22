@@ -2,12 +2,14 @@ package crd
 
 import metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
+// +k8s:deepcopy-gen=true
 type SqsAutoScaler struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata"`
 	Spec              AutoScalerSpec `json:"spec"`
 }
 
+// +k8s:deepcopy-gen=true
 type SqsAutoScalerList struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata"`
